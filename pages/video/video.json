@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "video-list":"../../components/video-list/video-list"
+  },
+  "navigationBarTitleText": "宾果视频"
+}

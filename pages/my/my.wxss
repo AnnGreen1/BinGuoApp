@@ -1,0 +1,47 @@
+.userInfo-box
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 400rpx;
+  width: 80%;
+  margin: 0px auto;
+  border-bottom: 1px solid rgb(230,230,230);
+  padding-top: 100rpx;
+  box-sizing: border-box;
+}
+
+.default_avatar{
+  width: 120rpx;
+}
+
+.default_nickname{
+  font-size: 66rpx;
+  color:#555;
+}
+
+.logo{
+  width:120rpx;
+}
+
+.tip-box{
+  display: flex;
+  padding: 10%;
+  justify-content: center;
+  margin-bottom: 60rpx;
+}
+
+.tip-msg{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.tip-msg-title,.tip-msg-info{
+  font-size: 24rpx;
+}
+
+.tip-msg-info{
+  color: #999;
+}

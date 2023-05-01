@@ -1,0 +1,22 @@
+<!--video.wxml-->
+<view class="video-box">
+  <!--顶部区域-->
+  <view class="video-box-top">
+  <!--视频标题-->
+    <view class="video-title">{{videoInfo.title}}</view>
+    <!--视频信息-->
+    <view class="video-info">
+      <!--视频发布者的头像-->
+      <image class="video-info-avatar" src="{{videoInfo.avatar}}"></image>
+      <!--视频发布者-->
+      <text class="video-source">{{videoInfo.source}}</text>
+      <!--视频发布时间-->
+      <text class="video-time">{{videoInfo.time}}</text>
+    </view>
+  </view>
+  <!--底部区域-->
+  <view class="video-box-bottom">
+  <!--视频播放-->
+  <video class="video" id="{{videoId}}" src="{{videoInfo.src}}" bindplay="playing"></video>
+  </view>
+</view>

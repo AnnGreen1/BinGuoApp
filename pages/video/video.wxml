@@ -1,0 +1,9 @@
+<!--video.wxml-->
+<!-- <view class="body"> 
+  <video-list wx:for="{{videos}}" wx:key="index" id="video{{index}}" data-id="video{{index}}" videoId="video{{index}}"  videoInfo="{{item}}"　bindtap="playVideo"></video-list>
+</view> -->
+
+<!-- video.html -->
+<view class="body">
+  <video-list wx:for="{{videos}}" wx:key="index" id="video{{index}}" data-id="video{{index}}" videoId="video{{index}}" videoInfo="{{item}}" bindtap="playVideo"></video-list>
+</view>

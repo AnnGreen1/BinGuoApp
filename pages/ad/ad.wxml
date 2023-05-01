@@ -1,0 +1,7 @@
+<!--ad.wxml-->
+<view class="body">
+  <view class="time" bindtap="toHome">跳过广告：{{countdown}}秒</view>
+  <view>
+    <image src="../../icons/ad.png" class="ad" mode="aspectFit"></image>
+  </view>
+</view>
